@@ -1,10 +1,7 @@
 /*
-Programacion UNSAM
-Autor: Carlos Douglas Rodriguez
-Año: 2020
-8. Implemente una función que reciba un vector de números en punto flotante y un
-entero que representa el tamaño del vector y devuelva el promedio.
-Usar notación aritmética de punteros (no subíndices []) para recorrer el vector.
+8. Implemente una funciÃ³n que reciba un vector de nÃºmeros en punto flotante y un
+entero que representa el tamaÃ±o del vector y devuelva el promedio.
+Usar notaciÃ³n aritmÃ©tica de punteros (no subÃ­ndices []) para recorrer el vector.
 */
 #include<stdio.h>
 #define N 100
