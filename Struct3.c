@@ -1,9 +1,6 @@
 /*
-Programacion UNSAM
-Autor: Carlos Douglas Rodriguez
-Año: 2020
-3) Escribir una función que reciba las coordenadas cartesianas de 2 puntos en el
-espacio y devuelva la distancia euclídea.
+3) Escribir una funciÃ³n que reciba las coordenadas cartesianas de 2 puntos en el
+espacio y devuelva la distancia euclÃ­dea.
 */
 
 
