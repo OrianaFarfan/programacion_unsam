@@ -1,3 +1,7 @@
+/*
+3) Leer 5 strings por teclado y mostrar el “mayor” (alfabéticamente)
+*/
+
 #include<stdio.h>
 #include<string.h>
 
@@ -12,7 +16,7 @@ int main()
 
     for(i=0; i<5; i++)
     {
-        printf("Ingrese la palabra n� %d:",i+1);
+        printf("Ingrese la palabra n° %d:",i+1);
         scanf("%s", palabra);
 
 
