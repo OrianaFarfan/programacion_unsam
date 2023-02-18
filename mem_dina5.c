@@ -1,8 +1,4 @@
 /*
-Programacion UNSAM
-Autor: Carlos Douglas Rodriguez
-AÒo: 2020
-
 5.Suponga que se ejecutan las siguientes instrucciones:
 
     struct punto {
@@ -17,7 +13,7 @@ AÒo: 2020
 
     struct rectangulo *p;
 
-Escriba las lÌneas necesarias para que p apunte a una estructura rectangulo v·lida
+Escriba las l√≠neas necesarias para que p apunte a una estructura rectangulo v√°lida
 que tenga (10,25) como esquina superior izquierda y (20,15) como esquina inferior
 derecha.
 */
