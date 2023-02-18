@@ -1,14 +1,11 @@
 /*
-Programacion UNSAM
-Autor: Carlos Douglas Rodriguez
-Año: 2020
-4. Dada una lista enlazada, formada por números enteros, hacer un programa que la divida en
+4. Dada una lista enlazada, formada por nÃºmeros enteros, hacer un programa que la divida en
 dos listas: pares e impares.
 */
 #include<stdio.h>
 #include<stdlib.h>
 
-//Declaración de la estructura para los nodos (tipo de datos)
+//DeclaraciÃ³n de la estructura para los nodos (tipo de datos)
 typedef struct nodo {
     int dato;
     struct nodo *sig;
