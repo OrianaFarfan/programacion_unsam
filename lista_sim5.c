@@ -1,13 +1,10 @@
 /*
-Programacion UNSAM
-Autor: Carlos Douglas Rodriguez
-Año: 2020
-5. Escribir una función que inserte un elemento después del último nodo de una lista
+5. Escribir una funciÃ³n que inserte un elemento despuÃ©s del Ãºltimo nodo de una lista
 enlazada.
 */
 #include<stdio.h>
 #include<stdlib.h>
-/*Declaración de la estructura para los nodos (tipo de datos)*/
+/*DeclaraciÃ³n de la estructura para los nodos (tipo de datos)*/
 typedef struct nodo {
     int dato;
     struct nodo *sig;
