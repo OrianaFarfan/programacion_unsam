@@ -1,13 +1,10 @@
 /*
-Programacion UNSAM
-Autor: Carlos Douglas Rodriguez
-Año: 2020
-3. Escriba una función que devuelva la cantidad de elementos de una lista.
+3. Escriba una funciÃ³n que devuelva la cantidad de elementos de una lista.
 */
 #include<stdio.h>
 #include<stdlib.h>
 
-//Declaración de la estructura para los nodos (tipo de datos)
+//DeclaraciÃ³n de la estructura para los nodos (tipo de datos)
 typedef struct nodo {
     int dato;
     struct nodo *sig;
