@@ -1,12 +1,9 @@
 /*
-Programacion UNSAM
-Autor: Carlos Douglas Rodriguez
-Año: 2020
-9. Implemente la siguiente función para calcular el producto escalar de dos vectores:
+9. Implemente la siguiente funciÃ³n para calcular el producto escalar de dos vectores:
 double prod_esc (const double *a, const double *b, int n);
 Donde a y b apuntan a vectores de longitud n.
-La función debe retornar a[0]*b[0]+a[1]*b[1]+ ... + a[n-1]*b[n-1]
-Usar notación aritmética de punteros (no subíndices []) para recorrer los vectores.
+La funciÃ³n debe retornar a[0]*b[0]+a[1]*b[1]+ ... + a[n-1]*b[n-1]
+Usar notaciÃ³n aritmÃ©tica de punteros (no subÃ­ndices []) para recorrer los vectores.
 */
 
 #include<stdio.h>
