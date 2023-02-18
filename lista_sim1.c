@@ -1,8 +1,5 @@
 /*
-Programacion UNSAM
-Autor: Carlos Douglas Rodriguez
-Año: 2020
-1. Escriba una función que permita insertar un nuevo elemento antes del primer nodo de una
+1. Escriba una funciÃ³n que permita insertar un nuevo elemento antes del primer nodo de una
 lista
 enlazada de enteros.
 */
