@@ -1,14 +1,11 @@
 /*
-Programacion UNSAM
-Autor: Carlos Douglas Rodriguez
-Año: 2020
-7. Se tiene una lista ordenada de números enteros y se pide hacer una función que inserte un
-elemento a la lista, manteniéndola ordenada.
+7. Se tiene una lista ordenada de nÃºmeros enteros y se pide hacer una funciÃ³n que inserte un
+elemento a la lista, manteniÃ©ndola ordenada.
 */
 
 #include<stdio.h>
 #include<stdlib.h>
-/*Declaración de la estructura para los nodos (tipo de datos)*/
+/*DeclaraciÃ³n de la estructura para los nodos (tipo de datos)*/
 typedef struct nodo{
     int dato;
     struct nodo *sig;
