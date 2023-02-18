@@ -1,22 +1,19 @@
 /*
-Programacion UNSAM
-Autor: Carlos Douglas Rodriguez
-AÒo: 2020
 1. Considere las siguientes instrucciones:
-                  int *p; --> define un puntero que apuntar· a enteros
+                  int *p; --> define un puntero que apuntar√° a enteros
                   int i; --> define un entero
                   int k;  --> otro
                   i = 42; --> asigna el 42 a la var i
                   k = i; --> asigna el i=42 a la var k
-                  p = &i; --> asigna la direcciÛn de i a p
+                  p = &i; --> asigna la direcci√≥n de i a p
 
-Luego de esas instrucciones, øcu·l de las siguientes cambia el valor de i a 75?
+Luego de esas instrucciones, ¬øcu√°l de las siguientes cambia el valor de i a 75?
 A. k = 75; // Valor de i sera 42
 B. *k = 75; // k no es un puntero
 C. p = 75; //p es un puntero
 D. *p = 75; // Esta es la correcta, ya que con p=&i se le asigno al puntero p la direccion de i, y con *p=75 estoy entrando al valor de esa variable
                         //y asignandole este valor
-E. Dos o m·s de las anteriores // D es la correcta
+E. Dos o m√°s de las anteriores // D es la correcta
 */
 #include <stdio.h>
 int main()
