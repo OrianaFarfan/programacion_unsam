@@ -1,12 +1,9 @@
 /*
-Programacion UNSAM
-Autor: Carlos Douglas Rodriguez
-Año: 2020
-4. Escriba la siguiente función:
+4. Escriba la siguiente funciÃ³n:
 int *crear_vector (int n, int valor_inicial);
-La función debe retornar un puntero a un vector de enteros de tamaño n creado
-dinámicamente cuyas posiciones son inicializadas con valor_inicial. La
-función debe retornar NULL si no se puede reservar la memoria.
+La funciÃ³n debe retornar un puntero a un vector de enteros de tamaÃ±o n creado
+dinÃ¡micamente cuyas posiciones son inicializadas con valor_inicial. La
+funciÃ³n debe retornar NULL si no se puede reservar la memoria.
 */
 
 
@@ -18,7 +15,7 @@ int *crear_vector(int n, int valor_inicial) //Devuelve un puntero que apunta al 
 {
 	int i, *p; // Se crea el puntero que se va devolver
 
-	p=(int*)malloc(sizeof (int)*n); // Se crea un bloque fijo de tamaño sizeof int por n (cantidad de enteros) --> Se asigna la direccion de inicio a p
+	p=(int*)malloc(sizeof (int)*n); // Se crea un bloque fijo de tamaÃ±o sizeof int por n (cantidad de enteros) --> Se asigna la direccion de inicio a p
 
 	for( i=0; i<n; i++)
 	{
