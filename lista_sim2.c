@@ -1,15 +1,12 @@
 /*
-Programacion UNSAM
-Autor: Carlos Douglas Rodriguez
-Año: 2020
 2. Escribir un programa que cree una lista tipo LIFO (pila) con datos ingresados por el
 usuario.
-Luego mostrar los datos. Liberar la memoria que se reservó al crearla.
+Luego mostrar los datos. Liberar la memoria que se reservÃ³ al crearla.
 */
 #include<stdio.h>
 #include<stdlib.h>
 
-//Declaración de la estructura para los nodos (tipo de datos)
+//DeclaraciÃ³n de la estructura para los nodos (tipo de datos)
 typedef struct nodo {
     int dato;
     struct nodo *sig;
