@@ -1,8 +1,5 @@
 /*
-Programacion UNSAM
-Autor: Carlos Douglas Rodriguez
-Año: 2020
-4) Escribir una función que reciba las coordenadas de dos vectores en el plano y
+4) Escribir una funciÃ³n que reciba las coordenadas de dos vectores en el plano y
 devuelva las coordenadas del vector que resulta de componer ambos vectores
 */
 #include <stdio.h>
