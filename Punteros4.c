@@ -1,9 +1,6 @@
 /*
-Programacion UNSAM
-Autor: Carlos Douglas Rodriguez
-Año: 2020
-4. Escribir una función que reciba un vector de enteros y su tamaño, y devuelva la
-cantidad de números impares que contiene.
+4. Escribir una funciÃ³n que reciba un vector de enteros y su tamaÃ±o, y devuelva la
+cantidad de nÃºmeros impares que contiene.
 int impares (int *v, int tam);
 */
 #include <stdio.h>
