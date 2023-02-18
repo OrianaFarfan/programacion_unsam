@@ -1,8 +1,4 @@
 /*
-Programacion UNSAM
-Autor: Carlos Douglas Rodriguez
-Año: 2020
-
 1. Escribir un prog. en el que el usuario informa la cantidad de elementos que va a
 ingresar y luego los valores de los elementos (enteros).
 Los elementos deben almacenarse en un vector y luego en el archivo vector.dat. No
