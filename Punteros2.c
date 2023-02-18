@@ -1,9 +1,6 @@
 /*
-Programacion UNSAM
-Autor: Carlos Douglas Rodriguez
-AÒo: 2020
 
-2. Explicar quÈ est· mal en el siguiente fragmento de cÛdigo:
+2. Explicar qu√© est√° mal en el siguiente fragmento de c√≥digo:
 
         char c = 'A';
         double *p = &c;
