@@ -1,17 +1,14 @@
 /*
-Programacion UNSAM
-Autor: Carlos Douglas Rodriguez
-Año: 2020
 6. Suponga que se ejecutan las siguientes instrucciones:
 
         int a = {5, 15, 34, 54, 14, 2, 52, 72};
         int *p = &a [1], *q = &a [5];
 
-a. ¿Cuál es el valor de *(p+3)? //busca el valor que esta en p + 3
-b. ¿Cuál es el valor de *(q-3)?
-c. ¿Cuál es el valor de q-p?
-d. ¿La condición p<q es verdadera o falsa?
-e. ¿La condición *p<*q es verdadera o falsa?
+a. Â¿CuÃ¡l es el valor de *(p+3)? //busca el valor que esta en p + 3
+b. Â¿CuÃ¡l es el valor de *(q-3)?
+c. Â¿CuÃ¡l es el valor de q-p?
+d. Â¿La condiciÃ³n p<q es verdadera o falsa?
+e. Â¿La condiciÃ³n *p<*q es verdadera o falsa?
 */
 
 #include <stdio.h>
@@ -22,21 +19,21 @@ int main()
     int *p,*q;
     p= &a[1];
     q = &a[5];
-    printf("\na. ¿Cuál es el valor de *(p+3)?\n");
+    printf("\na. Â¿CuÃ¡l es el valor de *(p+3)?\n");
     printf("\nRESPUESTA: %d\n",*(p+3)); // valor 14
 
-    printf("\nb. ¿Cuál es el valor de *(q-3)?\n");
+    printf("\nb. Â¿CuÃ¡l es el valor de *(q-3)?\n");
     printf("\nRESPUESTA: %d\n",*(q-3)); // valor 34
 
-    printf("\nc. ¿Cuál es el valor de q-p?\n");
+    printf("\nc. Â¿CuÃ¡l es el valor de q-p?\n");
     printf("\nRESPUESTA: %d\n",(q-p)); // hace la diferencia de las posiciones de memoria 4
 
-    printf("\nd. ¿La condición p<q es verdadera o falsa?\n");
+    printf("\nd. Â¿La condiciÃ³n p<q es verdadera o falsa?\n");
     if(p>q)
         printf("\nRESPUESTA: Verdadera\n");
     else
         printf("\nRESPUESTA: Falsa\n");
-        printf("\ne. ¿La condición *p<*q es verdadera o falsa?\n");
+        printf("\ne. Â¿La condiciÃ³n *p<*q es verdadera o falsa?\n");
     if(*p<*q)
         printf("\nRESPUESTA: Verdadera\n");
     else
@@ -51,15 +48,15 @@ return 0;
         int a = {5, 15, 34, 54, 14, 2, 52, 72};
         int *p = &a [1], *q = &a [5];
 
-a. ¿Cuál es el valor de *(p+3)?  --> *(p+3) = 14
+a. Â¿CuÃ¡l es el valor de *(p+3)?  --> *(p+3) = 14
 
-b. ¿Cuál es el valor de *(q-3)? --> *(q-3)=34
+b. Â¿CuÃ¡l es el valor de *(q-3)? --> *(q-3)=34
 
-c. ¿Cuál es el valor de q-p? --> q-p=4
+c. Â¿CuÃ¡l es el valor de q-p? --> q-p=4
 
-d. ¿La condición p<q es verdadera o falsa? --> V, q apunta a una direcc mayor que p
+d. Â¿La condiciÃ³n p<q es verdadera o falsa? --> V, q apunta a una direcc mayor que p
 
-e. ¿La condición *p<*q es verdadera o falsa?  F, *q = 2 y *p = 15 (*p>*q)
+e. Â¿La condiciÃ³n *p<*q es verdadera o falsa?  F, *q = 2 y *p = 15 (*p>*q)
 
 
 
