@@ -1,7 +1,4 @@
 /*
-Programacion UNSAM
-Autor: Carlos Douglas Rodriguez
-Año: 2020
 5) Leer 5 strings por teclado y almacenarlos en un archivo.
 */
 #include <stdio.h>
