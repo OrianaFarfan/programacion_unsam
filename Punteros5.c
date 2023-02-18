@@ -1,9 +1,6 @@
 /*
-Programacion UNSAM
-Autor: Carlos Douglas Rodriguez
-AÒo: 2020
-5. Escribir una funciÛn que devuelva un puntero al m·ximo valor de un vector de
-ìdoublesî. Si el vector est· vacÌo (cant = 0) la funciÛn debe retornar NULL.
+5. Escribir una funci√≥n que devuelva un puntero al m√°ximo valor de un vector de
+‚Äúdoubles‚Äù. Si el vector est√° vac√≠o (cant = 0) la funci√≥n debe retornar NULL.
 */
 #include<stdio.h>
 #define N 100
