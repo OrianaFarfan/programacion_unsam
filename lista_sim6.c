@@ -1,15 +1,12 @@
 /*
-Programacion UNSAM
-Autor: Carlos Douglas Rodriguez
-AÒo: 2020
-6. Escribir una funciÛn que busque un elemento de la lista, por comparaciÛn con una clave e
-indique si se encuentra o no. Si se encuentra se informar· este elemento y tambiÈn el
+6. Escribir una funci√≥n que busque un elemento de la lista, por comparaci√≥n con una clave e
+indique si se encuentra o no. Si se encuentra se informar√° este elemento y tambi√©n el
 anterior
 (en caso de existir).
 */
 #include<stdio.h>
 #include<stdlib.h>
-/*DeclaraciÛn de la estructura para los nodos (tipo de datos)*/
+/*Declaraci√≥n de la estructura para los nodos (tipo de datos)*/
 typedef struct nodo {
     int dato;
     struct nodo *sig;
