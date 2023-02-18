@@ -1,7 +1,4 @@
 /*
-Programacion UNSAM
-Autor: Carlos Douglas Rodriguez
-Año: 2020
 2. Escribir un programa para leer el archivo vector.dat del ejercicio anterior y
 almacenarlo en un vector. No se conoce la cantidad de elementos y no se puede
 limitar
