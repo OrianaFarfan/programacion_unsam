@@ -1,11 +1,8 @@
 /*
-Programacion UNSAM
-Autor: Carlos Douglas Rodriguez
-Año: 2020
 7. Suponga que primero, ultimo y medio son punteros del mismo tipo y
-primero y ultimo apuntan al primer y último elemento de un vector. Si quiere
-que medio apunte al elemento que está en la mitad del vector ¿por qué la siguiente
-instrucción es inválida y cómo se podría solucionar?
+primero y ultimo apuntan al primer y Ãºltimo elemento de un vector. Si quiere
+que medio apunte al elemento que estÃ¡ en la mitad del vector Â¿por quÃ© la siguiente
+instrucciÃ³n es invÃ¡lida y cÃ³mo se podrÃ­a solucionar?
 medio = (primero + ultimo) / 2
 */
 #include <stdio.h>
@@ -19,7 +16,7 @@ int main()
     ultimo = &a[7]; //le asigno la direccion del ultimo elemento del vector
     medio = &a[ ( (ultimo - primero )/ 2 ) ]; //hace la diferencia de posiciones de memoria --> (7-0)/2 --> 3
 
-    printf("\na. ¿Cuál es el valor de MEDIO ?\n");
+    printf("\na. Â¿CuÃ¡l es el valor de MEDIO ?\n");
     printf("\nRESPUESTA: %d\n",*medio);
     printf("\n\nFin del Programa\n");
 
