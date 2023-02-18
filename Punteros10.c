@@ -1,10 +1,7 @@
 /*
-Programacion UNSAM
-Autor: Carlos Douglas Rodriguez
-Año: 2020
 10. Escriba un programa que permita al usuario ingresar valores enteros en una
 matriz de 3x3 y luego imprima los elementos de la diagonal principal.
-Usar notación aritmética de punteros (no subíndices []) para recorrer la matriz.
+Usar notaciÃ³n aritmÃ©tica de punteros (no subÃ­ndices []) para recorrer la matriz.
 */
 #include <stdio.h>
 #include <stdlib.h>
