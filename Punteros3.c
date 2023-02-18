@@ -1,9 +1,6 @@
 /*
-Programacion UNSAM
-Autor: Carlos Douglas Rodriguez
-Año: 2020
 3. Escribir un programa que imprima los elementos de un vector de enteros en orden
-inverso utilizando punteros (no usar subíndices []).
+inverso utilizando punteros (no usar subÃ­ndices []).
 int v[10] = {1,2,3,4,5,6,7,8,9,10};
 int *p;
 */
