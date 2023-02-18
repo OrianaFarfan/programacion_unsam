@@ -1,7 +1,4 @@
 /*
-Programacion UNSAM
-Autor: Carlos Douglas Rodriguez
-Año: 2020
 4) Leer 5 strings por teclado y mostrar el de mayor longitud
 */
 #include <stdio.h>
