@@ -1,8 +1,5 @@
 /*
-Programacion UNSAM
-Autor: Carlos Douglas Rodriguez
-Año: 2020
-5) Escribir una función que reciba 2 horas h1 y h2 (hora, minutos y segundos) y
+5) Escribir una funciÃ³n que reciba 2 horas h1 y h2 (hora, minutos y segundos) y
 devuelva la diferencia entre ambas (en horas, minutos y segundos). Se sabe que
 h2 es posterior a h1.
 */
