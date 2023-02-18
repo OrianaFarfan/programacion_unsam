@@ -1,7 +1,4 @@
 /*
-Programacion UNSAM
-Autor: Carlos Douglas Rodriguez
-Año: 2020
 6) Leer los strings del archivo del ej. anterior y mostrarlos en pantalla.
 */
 #include <stdio.h>
@@ -20,7 +17,7 @@ int main()
                 return 1;
             }
 
-    n = fread(palabra, sizeof(palabra), 1, f); //Guardamos en palabra, con ese size, de a 1 de ese tamaño y desde f. Voy leyendo cada size palabra o sea 200 bytes.
+    n = fread(palabra, sizeof(palabra), 1, f); //Guardamos en palabra, con ese size, de a 1 de ese tamaÃ±o y desde f. Voy leyendo cada size palabra o sea 200 bytes.
 
     if(n != 1)
             {
